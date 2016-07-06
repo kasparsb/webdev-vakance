@@ -14,7 +14,7 @@ $version = $pkg->version;
 <body>
     <section class="vakance">
         <header class="vakance__header">
-            <h1 class="vakance__heading vakance__heading--main">Vajadzīgs palīgs<span class="vakance__heading-sub">"web developer"</span></h1>
+            <h1 class="vakance__heading vakance__heading--main">Vajadzīgs<span class="vakance__heading-sub">"Topošais web developer"</span></h1>
         </header>
 
         <article class="vakance__article">
