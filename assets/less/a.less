@@ -1,0 +1,30 @@
+a {
+    color: @linkColor;
+    text-decoration: none;
+    position: relative;
+
+    transition: color 400ms;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: @linkColor;
+        opacity: 0;
+
+        transition: all 300ms;
+    }
+
+    &:hover {
+        color: darken(@linkColor, 10%);
+
+        &:after {
+            opacity: 1;
+            background: darken(@linkColor, 10%);
+            transform: translate(0, -3px);
+        }
+    }
+}
