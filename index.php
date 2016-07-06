@@ -43,6 +43,11 @@ $version = $pkg->version;
             <p class="vakance__note">Ja ir interese sūti pieteikumu uz <a href="mailto:kaspars@webit.lv">kaspars@webit.lv</a></p>
         </article>
     </section>
+    <?php 
+    if (file_exists('ga.txt')) {
+        echo file_get_contents('ga.txt');
+    }
+    ?>
     <script src="build/app.min-<?php echo $version ?>.js"></script>
 </body>
 </html>
