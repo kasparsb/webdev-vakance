@@ -19,7 +19,7 @@ $version = $pkg->version;
         </header>
 
         <article class="vakance__article">
-            <p>Darba pieredze nav vajadzīga. Galvenais, lai tev ir vēlme strādāt par programmētāju.
+            <p>Darba pieredze nav obligāta. Svarīgi, lai tev ir vēlme strādāt par programmētāju.
             Mācīsies un apgūsi jaunas lietas darot reālus darbus.</p>
 
             <h4 class="vakance__heading vakance__heading--small">Tavas prasības:</h4>
