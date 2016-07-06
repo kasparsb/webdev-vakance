@@ -24,7 +24,7 @@ $version = $pkg->version;
 
             <h4 class="vakance__heading vakance__heading--small">Tavas prasības:</h4>
             <ul class="vakance__details">
-                <li>Tu studē universitātē</li>
+                <li>Tu studē universitātē datorzinātņu fakultātē</li>
                 <li>Tev patīk programmēt un jau skolas laikā programmēji</li>
                 <li>Matemātika ir viens no taviem mīļākajiem priekšmetiem</li>
                 <li>Tev patīk viss, kas saistīts ar WEB</li>
