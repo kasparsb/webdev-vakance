@@ -44,8 +44,8 @@ $version = $pkg->version;
         </article>
     </section>
     <?php 
-    if (file_exists('ga.txt')) {
-        echo file_get_contents('ga.txt');
+    if (file_exists('../stat.txt')) {
+        echo file_get_contents('../stat.txt');
     }
     ?>
     <script src="build/app.min-<?php echo $version ?>.js"></script>
