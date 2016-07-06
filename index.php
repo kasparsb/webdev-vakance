@@ -8,8 +8,9 @@ $version = $pkg->version;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <title>Web developer vakance | Webit</title>
-    <link rel="stylesheet" href="build/app.min-<?php echo $version ?>.css" type='text/css' media='all' />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <style>
+    <?php echo file_get_contents(sprintf('build/app.min-%s.css', $version)) ?>
+    </style>
 </head>
 <body>
     <section class="vakance">
@@ -43,6 +44,7 @@ $version = $pkg->version;
             <p class="vakance__note">Ja ir interese sūti pieteikumu uz <a href="mailto:kaspars@webit.lv">kaspars@webit.lv</a></p>
         </article>
     </section>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <?php 
     if (file_exists('../stat.txt')) {
         echo file_get_contents('../stat.txt');
