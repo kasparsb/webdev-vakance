@@ -8,8 +8,8 @@ $version = $pkg->version;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
     <title>Web developer vakance | Webit</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="build/app.min-<?php echo $version ?>.css" type='text/css' media='all' />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
     <section class="vakance">
