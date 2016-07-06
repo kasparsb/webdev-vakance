@@ -27,9 +27,9 @@ $version = $pkg->version;
                 <li>Tev patīk programmēt un jau skolas laikā programmēji</li>
                 <li>Matemātika ir viens no taviem mīļākajiem priekšmetiem</li>
                 <li>Tev patīk viss, kas saistīts ar WEB</li>
-                <li>Tev interesē, Javascript, PHP, HTML, CSS, datubāzes utt</li>
+                <li>Tev interesē Javascript, PHP, HTML, CSS, datubāzes utt</li>
                 <li>Tev interesē Wordpress, Laravel, React</li>
-                <li>Zini, kas ir github. Ir savs github konts vai vismaz esi tur reģistrējies</li>
+                <li>Tu zini, kas ir GitHub. Ir savs github konts vai vismaz esi tur reģistrējies</li>
                 <li>Atbildības sajūta</li>
             </ul>
 
