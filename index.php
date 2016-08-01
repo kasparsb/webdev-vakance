@@ -15,7 +15,7 @@ $version = $pkg->version;
 <body>
     <section class="vakance">
         <header class="vakance__header">
-            <h1 class="vakance__heading vakance__heading--main">Vajadzīgs<span class="vakance__heading-sub">"Topošais web developer"</span></h1>
+            <h1 class="vakance__heading vakance__heading--main">Meklējam<span class="vakance__heading-sub">"jaunāko WEB programmētāju"</span></h1>
         </header>
 
         <article class="vakance__article">
@@ -37,8 +37,8 @@ $version = $pkg->version;
             <h4 class="vakance__heading vakance__heading--small">Piedāvāju:</h4>
             <ul class="vakance__details">
                 <li>Darbu varēsi apvienot ar mācībām</li>
-                <li>Mācīsies darot reālus darbus</li>
-                <li>Algu</li>
+                <li>Mācīsies darot reālus darbus, attīstot TOP10 portālu Latvijā</li>
+                <li>Motivējošu atalgojumu</li>
             </ul>
 
             <p class="vakance__note">Ja ir interese sūti pieteikumu uz <a href="mailto:kaspars@webit.lv">kaspars@webit.lv</a></p>
